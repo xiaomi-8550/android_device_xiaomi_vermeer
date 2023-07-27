@@ -14,6 +14,9 @@ $(call inherit-product, vendor/xiaomi/vermeer/vermeer-vendor.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Kernel Binary
+KERNEL_PREBUILT_DIR := device/xiaomi/vermeer-kernel
+
 # Properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/properties/odm_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/build_CN.prop \
