@@ -1,0 +1,8 @@
+# Bluetooth
+bluetooth.device.default_name=POCO F6 Pro
+
+# Marketname
+ro.product.marketname=POCO F6 Pro
+
+# USB
+vendor.usb.product_string=POCO F6 Pro

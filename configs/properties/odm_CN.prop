@@ -1,0 +1,8 @@
+# Bluetooth
+bluetooth.device.default_name=Redmi K70
+
+# Marketname
+ro.product.marketname=Redmi K70
+
+# USB
+vendor.usb.product_string=Redmi K70
