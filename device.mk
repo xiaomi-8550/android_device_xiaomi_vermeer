@@ -17,6 +17,19 @@ PRODUCT_SOONG_NAMESPACES += \
 # Kernel Binary
 KERNEL_PREBUILT_DIR := device/xiaomi/vermeer-kernel
 
+# Overlays
+PRODUCT_PACKAGES += \
+    VermeerFrameworks \
+    VermeerSettings23113RKC6C \
+    VermeerSettings23113RKC6G \
+    VermeerSettingsProvider23113RKC6C \
+    VermeerSettingsProvider23113RKC6G \
+    VermeerSystemUI \
+    VermeerWifiRes23113RKC6C \
+    VermeerWifiRes23113RKC6G \
+    VermeerWifiResMainline23113RKC6C \
+    VermeerWifiResMainline23113RKC6G \
+
 # Properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/properties/odm_CN.prop:$(TARGET_COPY_OUT_ODM)/etc/build_CN.prop \
