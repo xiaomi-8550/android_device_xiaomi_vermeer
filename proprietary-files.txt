@@ -128,7 +128,7 @@ vendor/lib/rfsa/adsp/libvpp_frc.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib/rfsa/adsp/libvpp_vqa_networks.so
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so
-vendor/lib/rfsa/adsp/nearby.napp_header
+vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
 # Audio (Configs)
@@ -144,7 +144,7 @@ odm/firmware/aw882xx_acf.bin
 # Camera - from Redmi K70 V816.0.17.0.UNKCNXM
 odm/bin/hw/vendor.qti.camera.provider-service_64|8feb5ce786004d35fd5b4268ceb6481cd2d22127
 odm/etc/camera/VideoNight4K/ellv.bin|3b702610d6ae1b771534770ba6c1d1d0301f252e
-odm/etc/camera/VideoNight4K/ellv_params.xml|35b0ed7046deabbcf53f85b4161adc5193244739
+odm/etc/camera/VideoNight4K/ellv_params.xml|101a6a5bb1a52caa376678fe6804bd104396697d
 odm/etc/camera/facefocus_models/detlmk.dlc|4b6b782925bec9ec497f5a720496a7cc3fab3274
 odm/etc/camera/facefocus_models/facedet_dark_full.dlc|72ce20f289f84181512e051eeb5594d3a0754d93
 odm/etc/camera/facefocus_models/facedet_dark_part.dlc|b5044013e3f29d5adadfa71d2e242bd10836b917
@@ -577,7 +577,7 @@ odm/etc/camera/eisoverridesettings.txt|a11c3d163aebb6480491b6846d6a4b5c5f7e054d
 odm/etc/camera/ellc.bin|73081aa2a0db4e37d5b2a6652a816971d5a37182
 odm/etc/camera/ellc_params.json|116ada247c55ff528d37659e626463a569ee716c
 odm/etc/camera/ellv.bin|3b702610d6ae1b771534770ba6c1d1d0301f252e
-odm/etc/camera/ellv_params.xml|b83e2cad8c491df16c3395bc956f24046a8dc63c
+odm/etc/camera/ellv_params.xml|430b283d60c840bdf2883eb95e3a33ad06d22611
 odm/etc/camera/enhance_motiontuning.xml|6422641f62bd4a2fb00f20ba73254a98e6b29569
 odm/etc/camera/facesr_hd_composite_ref_4.3.15_qcom8550_qnn_segqnn_qnn2.3_qualityv35r2.model|16d52da9644f817c1bc44826a6eed070a050e669
 odm/etc/camera/hdrcheckerextendparamsettings.yml|8de2283151ad1a3d7be52a337bb0679c4fff9cc0
@@ -624,7 +624,7 @@ odm/etc/camera/model_front.dlc|877b8d2fe08da337c51fc2118e82635dae534f18
 odm/etc/camera/model_front_mibokeh_video.dlc|edf980f0757cfa571c850bb5785ef0076ba90005
 odm/etc/camera/model_glass.dlc|2061953d50ff57df5f4b3bdef4564c9e783810a7
 odm/etc/camera/model_indoor.dlc|ba59e63ed388609f19e50eb0f0989fb67c5f87bd
-odm/etc/camera/motiontuning.xml|bb8db2e3a8598beeffa17e6794a56dbfb2919ea2
+odm/etc/camera/motiontuning.xml|cb3455b8a904101c6661a31faa999256d4d34597
 odm/etc/camera/night_motiontuning.xml|59c612a1134d61ce4bd216d17397c75464d1cfe0
 odm/etc/camera/ocr_aio|9063d5dd75fb363ab1e2b381194341714b6455bc
 odm/etc/camera/para_ini_cal.bin|08957ca48b37f0d1e59c14542d7070ec2e93bc98
@@ -633,7 +633,7 @@ odm/etc/camera/portraitrepaire_front_live.json|7a46145a5fb3140cb79b7f38bb54c6bc8
 odm/etc/camera/portraitrepaire_rear_class.json|dde0f659676b4232b75f6a093175059045af951a
 odm/etc/camera/portraitrepaire_rear_live.json|dde0f659676b4232b75f6a093175059045af951a
 odm/etc/camera/preview_bokeh_params_pro.json|5f45f99f4b279ec2dcfc97859c8de18cfe38c75c
-odm/etc/camera/sceneDetection.xml|3210029bf223b1553bdea60dfa127c47d82e2bdd
+odm/etc/camera/sceneDetection.xml|455cbcb97a7932398f1f047e65f4ac9db85cf4b4
 odm/etc/camera/sg_cap_cache|c7d6c3ff9b3879d228b501dee3d459ce8b147ab1
 odm/etc/camera/sg_cap_model|00e870e4fb243b151fb989f88870b6121b853cd8
 odm/etc/camera/sg_cap_policy|310a6201ba637d0d135c4fde743a1e39f754117d
@@ -644,13 +644,13 @@ odm/etc/camera/vermeer_aac_ovx8000_p24c128e_wide_ii_eeprom.bin|de00b79e7ed4fe436
 odm/etc/camera/vermeer_ofilm_gc02m1_p24c64f_macro_eeprom.bin|bbbbcbac9732f40a1e140edd7d5ba394cf6c687e
 odm/etc/camera/vermeer_ofilm_imx355_gt24p64e_ultra_eeprom.bin|14a206f1851515f199731560ed44df3166f123a8
 odm/etc/camera/vermeer_ofilm_ovx8000_gt24p128f_wide_i_eeprom.bin|87726087c670624818fe0e9e562238ebf77e94f1
-odm/etc/camera/xiaomiSceneDetection.xml|f41de2dab2c33664695e2f4b926faa4fdc73e1a9
+odm/etc/camera/xiaomiSceneDetection.xml|d64132b3576e4829fbf06a1f768bcfa4aeb27ec7
 odm/etc/camera/xmi_slmt_4x_1080p.dlc|704ad2c6d539126b356681d730c1f48b3462e4d8
 odm/etc/camera/xmi_slmt_4x_720p.dlc|1c82a5272121d286f4e1bb47054e8c330a166f92
 odm/etc/init/vendor.qti.camera.provider-service_64.rc|4ed078f177d53e2f8f8be3936e744702cfc8d364
 odm/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml|7dd0af022ef83b0c99a048ec1b3ff2984f2e8232
 odm/etc/vintf/manifest/vendor.qti.camera.provider.xml|48cb9020744c844ba2050f75a0234c3809c026c9
-odm/etc/vintf/manifest/vendor.xiaomi.camera.aon-impl.xml|2b0d8de96f59c1536ae8941e42b8231407a929b8
+odm/etc/vintf/manifest/vendor.xiaomi.camera.aon-impl.xml|d263faa3f94cefaac14e33cee1e3c02e9ef28172
 odm/lib/camera/com.qti.tuned.vermeer_ofilm_gc02m1_macro_light_ii.bin|00b0c97c79528c69616783ea75a7cfb2024241a2
 odm/lib/camera/com.qti.tuned.vermeer_ofilm_imx355_ultra_light_ii.bin|3ecad4978b6bff03e596c3c68e9aa5d5d69b3e0e
 odm/lib/camera/com.qti.tuned.vermeer_ofilm_ovx8000_wide_i_light_ii.bin|b5082f05a336240252c0711e9533250a05e3de89
@@ -862,27 +862,27 @@ odm/lib64/com.xiaomi.camhal.overlap.so|5e226523ad5517f30884d0d67d28391d4604ed1d
 odm/lib64/com.xiaomi.camhal.submodel.camxfrag.so|f9583295fa44b44d7132f73abae44d85bd9b3f4c
 odm/lib64/com.xiaomi.camhal.submodel.chifrag.so|880ffa1cac97c8dfda2621e5c52f5bfaa87e66e6
 odm/lib64/libAF.so|5aadf5ebb9f71154562ac56b90844281e83c96a6
-odm/lib64/libAncHumanVideoBokehV4.so|8b27b669b7b870595536e8e017e15427402be2d8
+odm/lib64/libAncHumanVideoBokehV4.so;DISABLE_CHECKELF|8b27b669b7b870595536e8e017e15427402be2d8
 odm/lib64/libHISCppAlgos.so|9ff6c4575c62758631a593ac784874bbea045440
 odm/lib64/libMiMotion.so|adc37722969054270cd5cdaf75d938bd61a39bd2
-odm/lib64/libMiVideoFilter.so|7a7c64e8bbb4268414bc491ec3668132d60bfdbc
-odm/lib64/libTrueSight.so|6c0247bf345973df8960f9f96da62cc9f49e9f23
+odm/lib64/libMiVideoFilter.so;DISABLE_CHECKELF|7a7c64e8bbb4268414bc491ec3668132d60bfdbc
+odm/lib64/libTrueSight.so;DISABLE_CHECKELF|6c0247bf345973df8960f9f96da62cc9f49e9f23
 odm/lib64/libXMFaceFocus.so|0cd4bc02a168365d8751fa4202cdae4f539497e4
 odm/lib64/libaidenoiser.so|e77c05fb644a3065232e9f300769ca2794252097
 odm/lib64/libaidenoiserv2.so|fe41a38c865f4e44886f74623c5a0df175625edc
 odm/lib64/libailab_rawhdr.so|093b229320b77bbed46e0d60de97c0befa5eff03
-odm/lib64/libalAILDC.so|1fa04612d80702439bb0b7ff539c8fe00255e42e
+odm/lib64/libalAILDC.so;DISABLE_CHECKELF|1fa04612d80702439bb0b7ff539c8fe00255e42e
 odm/lib64/libalAI_Seg.so|2dfa1b2ba25191660145e39411c4138ac14c5f70
 odm/lib64/libalAI_Seg_CFR.so|76ed18f3a233fb6dd288996f42ee3fb167c36890
 odm/lib64/libalCFR.so|2eaeff0851b4161ab10cec393f9240dd29aa91de
-odm/lib64/libalLDC.so|86f1bd919ad21782d6178b1a4a962ade23da4a98
+odm/lib64/libalLDC.so;DISABLE_CHECKELF|86f1bd919ad21782d6178b1a4a962ade23da4a98
 odm/lib64/libalNN.so|747fb68b31a8d08abb0dd9e294d3d653d5bbb117
 odm/lib64/libalNN_engine.so|24c2cc6c23a02ddda23616f2531e73eb8abcbc3e
 odm/lib64/libalNN_gpu.so|cc2d7714723477820be9a5736c94c3a9c414fafd
-odm/lib64/libalNN_snpe.so|b7ba3054439eb51976bf3f11410ec47454b79b55
+odm/lib64/libalNN_snpe.so;FIX_SONAME|c0a1b84cdadaa2d719be172e4bb142ba03685ddc
 odm/lib64/libanc_single_bokeh.so|520508cd0406e985d3e55ef77d3546d1ea603913
 odm/lib64/libanc_single_rt_bokeh.so|29b9357a9d340c613bb49e8147981bed65958a7d
-odm/lib64/libancbase_rt_videobokehv4.so|38646bc62d696365a8f635713b4dfa7820bf983e
+odm/lib64/libancbase_rt_videobokehv4.so;FIX_SONAME|0ecb368f66132bf16ab8ab569eeaaab330338a4c
 odm/lib64/libarcsoft_beautyshot.so|d5238fe7ffcb17c2328b7779c4c2478e6d1f5868
 odm/lib64/libarcsoft_hdr_detection.so|5f9d0904069cfaaea77225b327bb3d4cd7027c41
 odm/lib64/libarcsoft_hdr_raw.so|221ad6e63c494c5b2eade0cfdf1b4e31b8e65ca9
@@ -986,7 +986,7 @@ odm/lib64/libmmcamera_lscv35.so|765e9a743d2d75dcac33adc4a9b417c42425ab8b
 odm/lib64/libmmcamera_mfnr.so|09a12a08a023a574f417b8c8abcd1f0f9e665ba7
 odm/lib64/libmmcamera_mfnr_t4.so|12e15d30e995ef495d619678a1d0180a840d7c44
 odm/lib64/libmmcamera_pdpc.so|e2679441c6304f511b4d5ed54206c9639cc244fe
-odm/lib64/libmorpho_ubwc.so|5df091ee919633ae92012de4863d2e844d7a436c
+odm/lib64/libmorpho_ubwc.so;DISABLE_CHECKELF|5df091ee919633ae92012de4863d2e844d7a436c
 odm/lib64/libmorpho_video_stabilizer.so|0c29d09a80e04168b101721152a2e9046985faff
 odm/lib64/libmpbase.so|e6b51e2d501f434eea15ecdc275011d1498301ae
 odm/lib64/libofflinedebugdata.so|b9c12bfed261d0852309447bc59e35a8c5ed80d5
@@ -1012,7 +1012,6 @@ odm/lib64/libtfestriping.so|c127164a172e2c19ee5a09d62095ae3fcd173683
 odm/lib64/libubifocus.so|c9040a486fda535aaa4738728eca99244b40b4e2
 odm/lib64/libvideoBokeh.so|2288b8ebb853780fb66e7b1072a62e8367dd8f26
 odm/lib64/libvideoml.so|e53cb0d74f1740d306a072b8c6a67d680bc705e5
-odm/lib64/libvideomode.so|d9e8fa843b3880f07ea7be4ca02f1d231de3529c
 odm/lib64/libvidhance.so|dd97e0c8d2307f637750c3bf64e38c99ea319919
 odm/lib64/libvidhance_active_ois.so|3d476cb0f7832b81334b37ec872ad29b668910c9
 odm/lib64/libvidhance_face_stabilizer.so|c00da0d860c284e7f3e84480bd6517d1052770f8
@@ -1020,7 +1019,7 @@ odm/lib64/libvidhance_horizon_correction.so|d67079de03d46ee71b17757b17cbdf26bba7
 odm/lib64/libvidhance_ldc.so|b64e79d1bb275180f424b37e920f17887bfb5895
 odm/lib64/libvidhance_stabilizer.so|89161f05189530581bbe965c5fb0be4f60f64f28
 odm/lib64/libvidhance_super_stabilization.so|18cdf22b64570aa2bf281692b9d91acc9367ce63
-odm/lib64/libwrapper_dlengine.so|17257bd57d189096878450d4c10ec2fdb9447f39
+odm/lib64/libwrapper_dlengine.so|a672738d28a14cedcb65ed1c8092432bb6641e00
 odm/lib64/libxmi_hdr_bokeh.so|559bac0112ed2e42a64ee1de01a83b17d43d70da
 odm/lib64/libxmi_hdr_checker.so|b8bde7794dcc30dbf0bcd711f2a307f4e766c331
 odm/lib64/libxmi_high_dynamic_range.so|7ebb75f206959bbcb72d649c7b1f80c6ddf5013d
@@ -1073,7 +1072,7 @@ odm/etc/disp0/mdss_dsi_n11_42_02_0a_dsc_cmd/mi_gc_3.txt
 odm/etc/df_default.xml
 
 # Fingerprint
-odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
 odm/lib64/libgf_hal.so
 
 # Media (Dolby Vision)
@@ -1089,8 +1088,6 @@ odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
 odm/etc/cit_param_config.json
 odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
 
 # Sensors (Config)
 odm/etc/sensors/config/ak7323.json

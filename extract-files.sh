@@ -19,6 +19,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r498229b/bin/llvm-strip --strip-debug "${2}"
             ;;
+        odm/lib64/libwrapper_dlengine.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "liblog.so" "${2}"
+            ;;
         *)
             return 1
             ;;
