@@ -17,7 +17,7 @@ function blob_fixup() {
             ;;
         odm/lib64/libailab_rawhdr.so | odm/lib64/libxmi_high_dynamic_range_cdsp.so)
             [ "$2" = "" ] && return 0
-            "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r450784e/bin/llvm-strip --strip-debug "${2}"
+            "${ANDROID_ROOT}"/prebuilts/clang/host/linux-x86/clang-r498229b/bin/llvm-strip --strip-debug "${2}"
             ;;
         *)
             return 1
